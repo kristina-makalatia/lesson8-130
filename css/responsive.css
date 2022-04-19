@@ -1,0 +1,76 @@
+/* responsive */
+
+/* example #1 */
+/* @media (max-width:768px) {
+    .block {
+        width: 150px;
+    }
+    .block:nth-child(1),
+    .block:nth-child(2),
+    .block:nth-child(3),
+    .block:nth-child(4) {
+        background-color: chartreuse;
+    }
+}
+
+@media (max-width:650px) {
+    .block:last-child {
+        display: none;
+    }
+} */
+
+/* example #2 - direction */
+/* @media (max-width:1024px) {
+    .wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .block {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:480px) {
+    .block:nth-child(2) {
+        width: 100px;
+    }
+} */
+
+
+/* example #3 wrap */
+/* @media (max-width:500px ){
+    .wraper {
+        justify-content: center;
+    }
+    .block {
+        margin-bottom: 30px;
+    }
+} */
+
+/* example#4 - % */
+@media (max-width:1000px) {
+    .block {
+        width: 45%;
+    }
+}
+@media (max-width:480px) {
+    .block {
+        width: 100%;
+    }
+    .wraper {
+        height: auto;
+    }
+    .image-block {
+        display: block;
+        width:250px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .navigation {
+        display: none;
+    }
+    .burger-bar {
+        display: block;
+    }
+}

@@ -1,0 +1,90 @@
+.block {
+    width: 250px;
+    height: 250px;
+}
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: chartreuse;
+    height: 500px;
+}
+
+.block:nth-child(1) {
+    background-color: yellow;
+} 
+/* .block:first-child {
+    background-color: yellow;
+} */
+.block:nth-child(2) {
+    background-color: red;
+}
+.block:nth-child(3) {
+    background-color: blue;
+}
+.block:nth-child(4) {
+    background-color: pink;
+}
+/* .block:last-child {
+    background-color: pink;
+} */
+/* .block:nth-child(2n) {
+    background-color: red;
+} */
+
+/* .block:nth-child(even) {
+    background-color: blueviolet;
+}
+.block:nth-child(odd) {
+    background-color: aqua;
+} */
+
+.image-block {
+    display: none;
+}
+
+/* icons fontawesome */
+.fa-facebook-messenger {
+    color: blue;
+    font-size: 35px;
+    transition: all 5s linear;
+}
+.youtube-icon {
+    color: red;
+    font-size: 35px;
+}
+.fa-facebook-messenger:hover {
+    color:darkkhaki;
+}
+
+/* header styles */
+.header-wraper {
+    display: flex;
+    background-color: lightblue;
+    padding: 30px;
+    justify-content: space-between;
+}
+.nav-ul {
+    display: flex;
+}
+.burger-bar {
+    font-size: 35px;
+    color: red;
+    display: none;
+}
+.nav-li {
+    margin-right: 30px;
+    font-size: 22px;
+    color:red;
+}
+
+.nav-li:last-child {
+    margin-right: 0;
+}
+
+.container {
+    max-width:1170px;
+    width: 80%;
+    margin: 0 auto;
+    background-color:darkgreen;
+}
